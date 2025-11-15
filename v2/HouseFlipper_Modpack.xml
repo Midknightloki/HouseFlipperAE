@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<modpack>
+    <pack
+        name="House Flipper: Apocalypse Edition"
+        author="Loki Midknight"
+        description="Building-focused modpack with no horde nights. Features CP Modded ecosystem with quality-of-life and decoration mods for pure building experience."
+        version="1.0.0"
+        gameversion="2.4 b7"
+    />
+
+    <!-- Core Mods - Load in this order -->
+    <!-- CP Modded Core MUST load first -->
+    <modlet name='CP Modded Core V2-7942-2-1-51-1A-1753512598.zip' modtype='Modlet' url='https://github.com/Midknightloki/HouseFlipperAE/releases/download/v1.0.0/CP Modded Core V2-7942-2-1-51-1A-1753512598.zip' />
+    
+    <!-- CP Modded AIO No Traders - Pre-configured for minimal horde nights -->
+    <modlet name='CP Modded AIO No Traders V2-7942-2-1-51-1-1753490457.zip' modtype='Modlet' url='https://github.com/Midknightloki/HouseFlipperAE/releases/download/v1.0.0/CP Modded AIO No Traders V2-7942-2-1-51-1-1753490457.zip' />
+    
+    <!-- CP Compatibility & Traders -->
+    <modlet name='CP Compat Patch CP EFT IZYS V2-7942-2-3-51-0-1758066740.zip' modtype='Modlet' url='https://github.com/Midknightloki/HouseFlipperAE/releases/download/v1.0.0/CP Compat Patch CP EFT IZYS V2-7942-2-3-51-0-1758066740.zip' />
+    <modlet name='CP Modded Traders V2-7942-2-0-51-0-1752193831.zip' modtype='Modlet' url='https://github.com/Midknightloki/HouseFlipperAE/releases/download/v1.0.0/CP Modded Traders V2-7942-2-0-51-0-1752193831.zip' />
+    
+    <!-- Quality of Life / UI Mods -->
+    <modlet name='CATUI (for 7DTD 2.3)-5248-2-3-02-1756724332.zip' modtype='Modlet' url='https://github.com/Midknightloki/HouseFlipperAE/releases/download/v1.0.0/CATUI (for 7DTD 2.3)-5248-2-3-02-1756724332.zip' />
+    <modlet name='Quartz-2409-v6-1-0-1757981700.zip' modtype='Modlet' url='https://github.com/Midknightloki/HouseFlipperAE/releases/download/v1.0.0/Quartz-2409-v6-1-0-1757981700.zip' />
+    <modlet name='SPuppyMiniMap-8069-1-3-1753243430.7z' modtype='Modlet' url='https://github.com/Midknightloki/HouseFlipperAE/releases/download/v1.0.0/SPuppyMiniMap-8069-1-3-1753243430.7z' />
+    
+    <!-- Building & Decoration Mods -->
+    <modlet name='LittleRedSonja_ZT_UBBI_V2-8812-1-0-4-1762381913.zip' modtype='Modlet' url='https://github.com/Midknightloki/HouseFlipperAE/releases/download/v1.0.0/LittleRedSonja_ZT_UBBI_V2-8812-1-0-4-1762381913.zip' />
+    <modlet name='BobcatVehicle-7943-2-0E-1752969181.zip' modtype='Modlet' url='https://github.com/Midknightloki/HouseFlipperAE/releases/download/v1.0.0/BobcatVehicle-7943-2-0E-1752969181.zip' />
+
+</modpack>

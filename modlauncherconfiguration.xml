@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Servers>
+  <ServerGroup Name="House Flipper: Apocalypse Edition">
+    <Server Name="House Flipper: Apocalypse Edition" Logo="https://raw.githubusercontent.com/Midknightloki/HouseFlipperAE/HouseFlipperAE/assets/logo.png">
+      <Description>House Flipper: Apocalypse Edition - A building-focused modpack for 7 Days to Die
+
+Features Include:
+- CP Modded Ecosystem: Thousands of new items, blocks, and content additions
+- No Horde Nights: Pre-configured to eliminate bloodmoon pressure and let you focus on building
+- Biome Progression Disabled: Consistent difficulty across all regions
+- Building Focus: LittleRedSonja decorative and functional building pieces
+- Quality of Life: Modern UI improvements (CATUI, Quartz) and navigation aids (Minimap)
+- Vehicle Support: Bobcat Vehicle mod for material transportation
+- Multiplayer Ready: Works on servers and co-op play
+- One-Step Installation: Download and play with the mod launcher
+
+Perfect for players who want to experience the apocalypse without the constant threat of horde nights!
+      </Description>
+      <Version>1.0.0</Version>
+      <RSS/>
+      <Excludes></Excludes>
+      <ReleaseNotes>Initial Release v1.0.0
+- CP Modded Core V2 foundation
+- CP Modded AIO No Traders (pre-configured for reduced hordes)
+- CP Compat Patch and Traders
+- Quality of Life mods (CATUI, Quartz, SPuppyMiniMap)
+- Building mods (LittleRedSonja, BobcatVehicle)
+- Comprehensive documentation and setup guides
+- Git LFS support for large mod files
+      </ReleaseNotes>
+      <Discord>https://github.com/Midknightloki/HouseFlipperAE/discussions</Discord>
+      <Donate></Donate>
+      <DownloadMode>Clone</DownloadMode>
+      <Downloads><Download>https://github.com/Midknightloki/HouseFlipperAE</Download></Downloads>
+    </Server>
+  </ServerGroup>
+</Servers>
