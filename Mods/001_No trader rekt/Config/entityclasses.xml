@@ -1,0 +1,3 @@
+<configs>
+    <set xpath="/entity_classes/entity_class[@name='npcTraderRekt']/property[@name='Mesh']/@value">@:Entities/Traders/Prefabs/TraderJen.prefab</set>
+</configs>

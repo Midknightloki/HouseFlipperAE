@@ -1,0 +1,34 @@
+v1.0 - Initial Release
+- Adds Sorting to Unlocked Crates & Trash Buttons. 
+- Buttons CTRL F were sort and CTRL T was trash. 
+
+Known Issue with Initial Release:
+- Players could access ALL crates, even if not on team. 
+- Players wanted easier function. 
+
+
+v2.
+- Changed functionality of Mod as a whole. Added new features:
+- Quick Refill, Locked or Unlocked Slots can be refilled now with CTRL K button combo. It will refill to max
+stack size. 
+- Implemented party system so that when in party, players can directly send items to crates, and also pull from crates
+with CTRL F and CTRL K. 
+- Fixed the out of party issue, now players out of your party can ONLY transfer IN and not transfer out any items (This
+was to primarily prevent griefers).
+- Implemented transfers to locked crates or unlocked  with dual functionality for added base protection on PvP servers. 
+- Refactored the LoadConfig() to be a failsafe. Now uses XmlDocument.Load() inside of a try/catch block. 
+- Added additional tooltips and information that comes across screen and added MORE debug logging. It has coords, player and crate.
+- Lock Slots will be ignored now if quick transferring out items. 
+
+Known Issue with Initial Release:
+- None
+
+v3
+- Added Comp. with 2.0 as a separate version due to changes in API
+
+v3.1
+- Added the ability to enable or disable logging in the console. 
+- Added ability to change keybinds to better fit different playstyles
+
+Plans Next:
+- TBD

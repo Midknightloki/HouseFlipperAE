@@ -1,0 +1,64 @@
+<LittleRedSonja>
+
+	<append xpath="/ui_display_info/crafting_category_display">
+	
+		<crafting_category_list display_type="ZT_Microwave">
+			<crafting_category name="CFFood/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFood" />
+			<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryDrink" />
+		</crafting_category_list>
+		
+		<crafting_category_list display_type="ZT_Stove">
+			<crafting_category name="CFFood/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFood" />
+			<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryDrink" />
+		</crafting_category_list>
+		
+		<crafting_category_list display_type="ZT_StoveTop">
+			<crafting_category name="CFFood/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFood" />
+			<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryDrink" />
+		</crafting_category_list>
+		
+		<crafting_category_list display_type="ZT_Oven">
+			<crafting_category name="CFFood/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFood" />
+		</crafting_category_list>
+		
+		<crafting_category_list display_type="ZT_Toaster">
+			<crafting_category name="CFFood/Cooking" icon="ui_game_symbol_fork" display_name="lblCategoryFood" />
+		</crafting_category_list>
+		
+		<crafting_category_list display_type="ZT_CoffeeMaker">
+			<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryDrink" />
+		</crafting_category_list>
+	
+	</append>
+	
+	<conditional>
+	<if cond="mod_loaded('LittleRedSonja_PumbledWaterSolutions')">
+	
+		<append xpath="/ui_display_info/crafting_category_display">
+		
+			<crafting_category_list display_type="ZT_Sink">
+				<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryFreshTapWater" />
+			</crafting_category_list>
+			
+			<crafting_category_list display_type="ZT_SinkWhiteWood">
+				<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryFreshTapWater" />
+			</crafting_category_list>
+			
+			<crafting_category_list display_type="ZT_SinkClearWood">
+				<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryFreshTapWater" />
+			</crafting_category_list>
+			
+			<crafting_category_list display_type="ZT_SinkDarkWood">
+				<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryFreshTapWater" />
+			</crafting_category_list>
+			
+			<crafting_category_list display_type="ZT_BathroomSink2">
+				<crafting_category name="CFDrink/Cooking" icon="ui_game_symbol_thirst" display_name="lblCategoryFreshTapWater" />
+			</crafting_category_list>
+	
+		</append>
+		
+	</if>
+	</conditional>
+	
+</LittleRedSonja>

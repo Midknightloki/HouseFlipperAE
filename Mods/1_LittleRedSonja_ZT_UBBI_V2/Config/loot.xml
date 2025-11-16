@@ -1,0 +1,11 @@
+<LittleRedSonja>
+
+	<append xpath="/lootcontainers">
+		
+		<lootcontainer name="Sonja_UBBI_Fridge" count="0" size="8,10" sound_open="UseActions/fridgeretro_open" sound_close="UseActions/fridgeretro_close" loot_quality_template="qualBaseTemplate">
+			<item name="cobweb" count="0"/>
+		</lootcontainer>
+		
+	</append>
+
+</LittleRedSonja>

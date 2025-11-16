@@ -1,0 +1,102 @@
+<configs>	
+	
+	<append xpath="/recipes">
+		<recipe name="Mechanic Starter Bundle" count="1">
+			<ingredient name="Letter" count="1"/>
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Lumberjack Starter Bundle" count="1">
+			<ingredient name="Letter" count="1"/>
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Miner Starter Bundle" count="1">
+			<ingredient name="Letter" count="1"/>
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Athlete Starter Bundle" count="1">
+			<ingredient name="Letter" count="1"/>
+		</recipe>
+	</append>
+
+	<append xpath="/recipes">
+		<recipe name="Preacher Starter Bundle" count="1">
+			<ingredient name="Letter" count="1"/>
+		</recipe>
+	</append>
+
+        <append xpath="/recipes">
+		<recipe name="Criminal Starter Bundle" count="1">
+			<ingredient name="Letter" count="1"/>
+		</recipe>
+	</append>
+
+        <append xpath="/recipes">
+		<recipe name="Cop Starter Bundle" count="1">
+			<ingredient name="Letter" count="1"/>
+		</recipe>
+	</append>
+
+        <append xpath="/recipes">
+		<recipe name="Hunter Starter Bundle" count="1">
+			<ingredient name="Letter" count="1"/>
+		</recipe>
+	</append>
+
+        <append xpath="/recipes">
+		<recipe name="Soldier Starter Bundle" count="1">
+			<ingredient name="Letter" count="1"/>
+		</recipe>
+	</append>
+
+        <append xpath="/recipes">
+		<recipe name="Farmer Starter Bundle" count="1">
+			<ingredient name="Letter" count="1"/>
+		</recipe>
+	</append>
+
+        <append xpath="/recipes">
+		<recipe name="Thief Starter Bundle" count="1">
+			<ingredient name="Letter" count="1"/>
+		</recipe>
+	</append>
+
+        <append xpath="/recipes">
+		<recipe name="Assassin Starter Bundle" count="1">
+			<ingredient name="Letter" count="1"/>
+		</recipe>
+	</append>
+
+        <append xpath="/recipes">
+		<recipe name="Gamer Starter Bundle" count="1">
+			<ingredient name="Letter" count="1"/>
+		</recipe>
+	</append>
+
+        <append xpath="/recipes">
+		<recipe name="Engineer Starter Bundle" count="1">
+			<ingredient name="Letter" count="1"/>
+		</recipe>
+	</append>
+
+        <append xpath="/recipes">
+		<recipe name="Construction worker Starter Bundle" count="1">
+			<ingredient name="Letter" count="1"/>
+		</recipe>
+	</append>
+
+        <append xpath="/recipes">
+		<recipe name="Hobo Starter Bundle" count="1">
+			<ingredient name="Letter" count="1"/>
+		</recipe>
+	</append>
+
+
+
+
+</configs>

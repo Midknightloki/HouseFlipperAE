@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Servers>
+  <ServerGroup Name="House Flipper - Apocalypse Edition">
+    <Server Name="House Flipper - Apocalypse Edition" Logo="https://raw.githubusercontent.com/Midknightloki/HouseFlipperAE/main/assets/logo.png">
+      <Description>House Flipper: Apocalypse Edition - A curated building and exploration modpack for 7 Days to Die V2.4 (1.0 Stable). Features Include: - SMX UI Suite: Modern interface with integrated MINIMAP for easy navigation - Building Mods: LittleRedSonja plumbing/decor, MPLogue prefabs, and extensive decoration options - Quality of Life: Gears settings framework, Easy Sorter, BeyondStorage2, OcbDensityHoe terrain tools - Vehicle Support: Bobcat Vehicle for efficient material transportation - Starter Support: Grumpee's starter bundles for new players - Verified Configuration: Tested and confirmed working setup from known stable installation Perfect for builders and explorers who want a refined vanilla-plus experience!</Description>
+      <Version>2.0.0</Version>
+      <RSS/>
+      <Excludes/>
+      <ReleaseNotes>Version 2.0.0 - Complete Refactor - Rebuilt from verified working installation - SMX UI Suite 2.3.9.0 with Gears 5.0.1 and Quartz 6.0.1 - Added MPLogue prefab collections (Prefabs v2.0.1, UrbanDecay v1.2.1) - Added trader modifications (No trader rekt v2.0) - Added quality of life mods: BeyondStorage2, Easy Sorter, OcbDensityHoe - Updated LittleRedSonja to v1.0.5 - Optimized load order for stability - All DLLs properly configured in Assemblies folders for V2.4 compatibility</ReleaseNotes>
+      <Discord>https://github.com/Midknightloki/HouseFlipperAE/discussions</Discord>
+      <Donate/>
+      <DownloadMode>GitHub</DownloadMode>
+      <Downloads>
+        <Download>https://github.com/Midknightloki/HouseFlipperAE</Download>
+      </Downloads>
+    </Server>
+  </ServerGroup>
+</Servers>

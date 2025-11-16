@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Config>
+    <!--============================================================-->
+    <!--TheMeanOnes Easy Sorter v3 - Configuration-->
+    <!--============================================================-->
+    <!--Shift+F → Sort items into nearby containers (excludes locked slots).-->
+    <!--Shift+K → Refill stackable items from containers (includes locked slots).-->
+    <!--Shift+R → Delete junk items listed in the Trash List (excludes locked slots).-->
+    <!--Keybinds: Edit the letter key (e.g., F, K, R) for each action. Shift is required.-->
+    <!--Use Unity KeyCode names (e.g., F, K, R, Alpha1). See Unity KeyCode docs for options.-->
+    <!--EnableLogging: Set to false to disable debug logging in the console.-->
+    <!--Slot state logs are limited to locked or skipped slots for reduced console spam.-->
+    <!--Party Behavior: Players in the same party can share containers; otherwise, access is restricted.-->
+    <!--============================================================-->
+<!--Distance in blocks to search for containers (default: 30)--><Distance>30</Distance>
+<!--Enable debug logging in the console (true/false, default: true)--><EnableLogging>True</EnableLogging>
+<!--Key for auto-sort (default: F)--><AutoSortKey>F</AutoSortKey>
+<!--Key for inventory fill (default: K)--><InventoryFillKey>K</InventoryFillKey>
+<!--Key for trash purge (default: R)--><TrashKey>R</TrashKey>
+<!--Trash List: Items auto-deleted by Shift+TrashKey (excludes locked slots)-->
+<TrashList><Item>resourceSnowBall</Item>
+    <Item>resourceScrapPolymers</Item>
+    <Item>resourcePaper</Item>
+    <Item>resourceCloth</Item>
+</TrashList>
+</Config>

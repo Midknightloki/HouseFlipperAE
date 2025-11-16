@@ -1,0 +1,76 @@
+<LittleRedSonja>
+
+	<append xpath="/Sounds">
+		
+		<SoundDataNode name="silentNoiseElectronics"> <AudioSource name="@:Sounds/Prefabs/AudioSource_UseAction.prefab"/>
+			<Noise ID="3" noise="30" time="14" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+			<AudioClip ClipName="#@modfolder:Resources/SonjaUBBI.unity3d?ZTSoundSilentTrigger" Loop="false"/>
+			<LocalCrouchVolumeScale value="0.5"/><CrouchNoiseScale value="1"/><NoiseScale name="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/>			
+		</SoundDataNode>
+		
+		<SoundDataNode name="arcadeSilentNoise"> <AudioSource name="@:Sounds/Prefabs/AudioSource_UseAction.prefab"/>
+			<Noise ID="3" noise="30" time="102.6" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+			<AudioClip ClipName="#@modfolder:Resources/SonjaUBBI.unity3d?ZTSoundSilentTrigger" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/><CrouchNoiseScale value="1"/><NoiseScale name="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/>			
+		</SoundDataNode>
+	
+		<!-- Microwave, Stove, Oven & Stove Top -->
+		
+		<SoundDataNode name="microwave_click_craft"> <AudioSource name="@:Sounds/Prefabs/AudioSource_UI.prefab"/>
+			<AudioClip ClipName="#@modfolder:Resources/SonjaUBBI.unity3d?microwave_click_craft"/>
+			<LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+
+		<SoundDataNode name="microwave_close"> <AudioSource name="@:Sounds/Prefabs/AudioSource_Interact.prefab"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/SonjaUBBI.unity3d?microwave_close"/>
+			<LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/>	
+		</SoundDataNode>
+
+		<SoundDataNode name="microwave_complete_item"> <AudioSource name="@:Sounds/Prefabs/AudioSource_UI.prefab"/>
+			<AudioClip ClipName="#@modfolder:Resources/SonjaUBBI.unity3d?microwave_complete_item"/>
+			<LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+
+		<SoundDataNode name="microwave_open"> <AudioSource name="@:Sounds/Prefabs/AudioSource_Interact.prefab"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/SonjaUBBI.unity3d?microwave_open"/>
+			<LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/>	
+		</SoundDataNode>
+
+		<SoundDataNode name="microwave_cook_click"> <AudioSource name="@:Sounds/Prefabs/AudioSource_UI.prefab"/>
+			<AudioClip ClipName="#@modfolder:Resources/SonjaUBBI.unity3d?microwave_cook_click" Loop="true"/>
+			<LocalCrouchVolumeScale value="1.0"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		
+		<!-- Toaster -->
+		
+		<SoundDataNode name="toaster_open"> <AudioSource name="@:Sounds/Prefabs/AudioSource_Interact.prefab"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/SonjaUBBI.unity3d?toaster_open"/>
+			<LocalCrouchVolumeScale value="0.5"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		
+		<SoundDataNode name="toaster_complete_item"> <AudioSource name="@:Sounds/Prefabs/AudioSource_UI.prefab"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/SonjaUBBI.unity3d?toaster_complete_item"/>
+			<LocalCrouchVolumeScale value="0.5"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+			
+		<!-- Coffee Maker -->
+		
+		<SoundDataNode name="coffee_open"> <AudioSource name="@:Sounds/Prefabs/AudioSource_Interact.prefab"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/SonjaUBBI.unity3d?coffee_open"/>
+			<LocalCrouchVolumeScale value="0.5"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/>	
+		</SoundDataNode>
+		
+		<SoundDataNode name="coffee_complete_item"> <AudioSource name="@:Sounds/Prefabs/AudioSource_UI.prefab"/>
+			<Noise ID="1" noise="7" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/SonjaUBBI.unity3d?coffee_complete_item"/>
+			<LocalCrouchVolumeScale value="0.5"/><CrouchNoiseScale value="0.5"/><NoiseScale value="1"/><MaxVoices value="10"/><MaxRepeatRate value="0.01"/>	
+		</SoundDataNode>
+		
+	</append>
+
+</LittleRedSonja>

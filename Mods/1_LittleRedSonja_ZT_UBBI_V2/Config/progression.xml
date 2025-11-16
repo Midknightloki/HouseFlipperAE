@@ -1,0 +1,23 @@
+<LittleRedSonja>
+	
+	<conditional>
+	<if cond="mod_loaded('EFT_Overhaul') or mod_loaded('zz_REBIRTH__Core') or mod_loaded('zz_REBIRTH__Core_2_0') or mod_loaded('IzPLearnByDoing')">
+	
+		<!-- Progression is removed if any of these mods is loaded, to allow compatibility -->
+		
+	</if>
+	<else>
+	
+		<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/display_entry[@name_key='electricianT1']/unlock_entry[contains(@item,'generatorbank')]/@item">,ZT_Lights</append>
+	
+		<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[@level='25,100' and contains(@tags,'generatorbank')]/@tags">,ZT_Lights</append>
+	
+	
+		<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/display_entry[@name_key='electricianT2']/unlock_entry[contains(@item,'motionsensor')]/@item">,ZT_PoweredDoors</append>
+	
+		<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingElectrician']/effect_group/passive_effect[@level='45,100' and contains(@tags,'motionsensor')]/@tags">,ZT_PoweredDoors</append>
+		
+	</else>
+	</conditional>
+			
+</LittleRedSonja>

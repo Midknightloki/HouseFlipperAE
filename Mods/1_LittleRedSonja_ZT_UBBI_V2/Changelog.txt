@@ -1,0 +1,55 @@
+LittleRedSonja & ZTensity UBBI V2 -- V1 & V2 Mod 7DTD -- by LittleRedSonja
+
+Changelog:
+
+1.0.0 - Updates, fixes, optimizes and expands funtionality for the original UBBI.
+
+1.0.1 - Fix for some green/red lights in lamps and electronics. Power needed for those is also turned down to 0. You only need to "activate" the lamps and electronics with a wiretool once (use left or right mouse on them while holding a wiretool, like you would do when connecting them to a power source), and they will work fine after that. You do not need to connect them to a power source, only use the wiretool on them. 
+      - Improves bed materials. Adds 6 more bed variants in nice colors to fit better with different styles of bases. 
+      - Hides some of the individual blocks still visible in the object lists.  
+      - Adds a Pick Up option for the Paintings.
+
+1.0.2 - Adds PickUp option for the beds.      
+      - Fixes round kitchen cabinets.
+      - Increases the HP of many objects, specially the doors and the windows.
+      - Makes the single and double wood doors upgradeable. Using any repair tool you can now upgrade Normal door to Strong door (requires forged iron) and Strong door to Armored door (requires forged steel). The appearance will remain the same, but the HP will increase significantly to make them equivalent to vanilla iron and vault doors respectively.
+      - Optimized materials for best perfomance when tons of assets are placed in a reduced space. 
+
+1.0.3 - Fix: Upgradable doors can no longer be constantly upgraded.
+      - Fix: Double doors do not change position when upgraded.
+
+1.0.4 - Adjust the light intensity for the lamps, to make them slightly brighter. 
+      - Adds some effects to some of the kitchen appliances when cooking.
+      - Adds 6 of my favorite paintings as wall art. 
+      - Adds better compatibility with other big mods and overhauls that change the skill system in a significan way, such as Rebirth, Escape from Tarkov, and Learn By Doing.
+      - Fixes kitchen corner cabinets not working correctly.
+      - Fixes invisible icon for bedroom and floors variant helpers.
+      - Adjusts the colliders for some interactable objects, to make it interactions easier.
+
+1.0.5 - Fixes a problem with Light number 2 not loading the asset correctly. 
+
+
+All credit for the original UBBI goes to Hernan and ZTensity. Thank you ZTensity for giving me permission to update and continue the work in UBBI.
+
+This mod is compatible with V1 and V2 and later versions of the game.  
+
+I hope you enjoy the mod 💜. Let me know too if you have suggestions or find bugs.  🥰
+
+
+You can find all my mods here: 
+
+Nexus mods: https://next.nexusmods.com/profile/LittleRedSonja/mods
+https://community.thefunpimps.com/members/littleredsonja.112788/#about
+7daystodiemods.com: https://7daystodiemods.com/?s=littleredsonja
+
+
+I also have a channel in Guppy Modding Discord, you can always find me there and ask questions, leave suggestions or report problems :):
+LittleRedSonja Channel in Guppy Modding Discord: https://discord.gg/gTZzQ4bC58
+
+I have a Youtube channel where I post some short videos about my mods: https://www.youtube.com/@LittleRedSonja
+
+
+You can also contact me in Discord if you have questions or ideas: @LittleRedSonja
+
+
+​

@@ -1,0 +1,37 @@
+# Scripts folder (developer tools)
+scripts/
+
+# Extracted mod files - keep only archives
+Mods/Server/
+
+# Git backups
+.git_backup_*/
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts
+*.exe
+# *.dll  # DISABLED - Mod DLLs in Assemblies folders are required for V2.4
+*.so
+*.dylib
+
+# Temporary files
+*.tmp
+*.bak
+*~

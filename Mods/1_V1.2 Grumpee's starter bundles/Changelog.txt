@@ -1,0 +1,9 @@
+V1.1: 
+- Added 10 armored-up magazines to the initial bag.
+
+V1.2: 
+- Added New Hobo bundle.
+- Reduced pistol magazines from the cop bundle. (from 20 to 10)
+- Reduced ammunition reserve from the cop bundle. (from 30 to 18)
+- Reduced ammunition reserve from the farmer Bundle. ( from 36 to 26)
+- Updated bundles description to give more insight on their contains.

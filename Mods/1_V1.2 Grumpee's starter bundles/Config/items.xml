@@ -1,0 +1,366 @@
+<configs>
+	<append xpath="/items">
+		<item name="Mysterious Bag">
+			<property name="DescriptionKey" value="MysteriousBagDesc"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CustomIcon" value="cntBackpack01"/>	
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Special Items"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item"
+ value="Letter,medicalFirstAidBandage,meleeToolFlashlight02,meleeWpnBladeT1HuntingKnife,gunHandgunT1Pistol,ammo9mmBulletBall,drugAntibiotics,workstationSkillMagazine,foodSkillMagazine,armorSkillMagazine"/>
+				<property name="Create_item_count" value="1,4,1,1,1,30,2,1,9,10"/>
+			</property>
+		</item>
+
+		<item name="Letter">
+			<property name="HoldType" value="45"/>
+			<property name="DescriptionKey" value="FriendLetterDesc"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceWood"/>
+			<property name="Weight" value="0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="CustomIcon" value="challengeQuestMaster"/>	
+			<property name="CraftingIngredientTime" value=".2"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Special Items"/>
+		</item>
+
+		<item name="Mechanic Starter Bundle">
+			<property name="DescriptionKey" value="MECBundleDesc"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CustomIcon" value="armorScavengerHelmet"/>	
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Special Items"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="armorScavengerHelmet,armorScavengerOutfit,armorScavengerGloves,armorScavengerBoots,meleeToolSalvageT1Wrench,modMeleeStructuralBrace,salvageToolsSkillMagazine,vehiclesSkillMagazine,bookWasteTreasuresAcid"/>
+				<property name="Create_item_count" value="1,1,1,1,1,1,10,19,1"/>
+			</property>
+		</item>
+
+		<item name="Lumberjack Starter Bundle">
+			<property name="DescriptionKey" value="LUMBundleDesc"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CustomIcon" value="armorLumberjackHelmet"/>
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Special Items"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="armorLumberjackHelmet,armorLumberjackOutfit,armorLumberjackGloves,armorLumberjackBoots,meleeToolAxeT1IronFireaxe,modMeleeWoodSplitter,harvestingToolsSkillMagazine,bookWasteTreasuresHoney,bookFiremansAlmanacHarvest"/>
+				<property name="Create_item_count" value="1,1,1,1,1,1,10,1,1"/>
+			</property>
+		</item>
+
+		<item name="Miner Starter Bundle">
+			<property name="DescriptionKey" value="MINBundleDesc"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CustomIcon" value="armorMinerHelmet"/>	
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Special Items"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="armorMinerHelmet,armorMinerOutfit,armorMinerGloves,armorMinerBoots,meleeToolPickT1IronPickaxe,modArmorHelmetLight,harvestingToolsSkillMagazine,bookArtOfMiningCoffee,bookArtOfMiningDamage"/>
+				<property name="Create_item_count" value="1,1,1,1,1,1,10,1,1"/>
+			</property>
+		</item>
+
+		<item name="Athlete Starter Bundle">
+			<property name="DescriptionKey" value="ATHBundleDesc"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CustomIcon" value="armorAthleticHelmet"/>			
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Special Items"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="armorAthleticHelmet,armorAthleticOutfit,armorAthleticGloves,armorAthleticBoots,meleeWpnClubT1BaseballBat,modMeleeClubMetalChain,clubsSkillMagazine,bookBatterUpKnockdown,drinkCanMegaCrush"/>
+				<property name="Create_item_count" value="1,1,1,1,1,1,10,1,2"/>
+			</property>
+		</item>
+
+		<item name="Preacher Starter Bundle">
+			<property name="DescriptionKey" value="PREBundleDesc"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CustomIcon" value="armorPreacherHelmet"/>			
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Special Items"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="armorPreacherHelmet,armorPreacherOutfit,armorPreacherGloves,armorPreacherBoots,gunBowT1IronCrossbow,medicalSkillMagazine,bookWasteTreasuresCloth,bookLuckyLooterMedical,ammoCrossbowBoltIron"/>
+				<property name="Create_item_count" value="1,1,1,1,1,19,1,1,25"/>
+			</property>
+		</item>
+
+<item name="Criminal Starter Bundle">
+			<property name="DescriptionKey" value="CRIBundleDesc"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CustomIcon" value="armorBikerHelmet"/>			
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Special Items"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="armorBikerHelmet,armorBikerOutfit,armorBikerGloves,armorBikerBoots,meleeWpnKnucklesT1IronKnuckles,modArmorCigar,knucklesSkillMagazine,bookBarBrawling7BoozedUp,drinkJarBeer"/>
+				<property name="Create_item_count" value="1,1,1,1,1,1,10,1,6"/>
+			</property>
+		</item>
+
+<item name="Cop Starter Bundle">
+			<property name="DescriptionKey" value="COPBundleDesc"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CustomIcon" value="armorEnforcerHelmet"/>			
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Special Items"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="armorEnforcerHelmet,armorEnforcerOutfit,armorEnforcerGloves,armorEnforcerBoots,gunHandgunT2Magnum44,ammo44MagnumBulletBall,handgunsSkillMagazine,bookEnforcerApparel,bookEnforcerIntimidation"/>
+				<property name="Create_item_count" value="1,1,1,1,1,18,10,1,1"/>
+			</property>
+		</item>
+
+<item name="Hunter Starter Bundle">
+			<property name="DescriptionKey" value="HUNBundleDesc"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CustomIcon" value="armorRangerHelmet"/>			
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Special Items"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="armorRangerHelmet,armorRangerOutfit,armorRangerGloves,armorRangerBoots,gunRifleT1HuntingRifle,modGunScopeSmall,ammo762mmBulletBall,riflesSkillMagazine,bookHuntingJournalSelfDefense"/>
+				<property name="Create_item_count" value="1,1,1,1,1,1,50,10,1"/>
+			</property>
+		</item>
+
+<item name="Soldier Starter Bundle">
+			<property name="DescriptionKey" value="SOLBundleDesc"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CustomIcon" value="armorCommandoHelmet"/>			
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Special Items"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="armorCommandoHelmet,armorCommandoOutfit,armorCommandoGloves,armorCommandoBoots,gunMGT1AK47,modArmorBandolier,ammo762mmBulletBall,machineGunsSkillMagazine,bookUrbanCombatRoomClearing"/>
+				<property name="Create_item_count" value="1,1,1,1,1,1,60,10,1"/>
+			</property>
+		</item>
+
+<item name="Farmer Starter Bundle">
+			<property name="DescriptionKey" value="FARBundleDesc"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CustomIcon" value="armorFarmerHelmet"/>			
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Special Items"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="armorFarmerHelmet,armorFarmerOutfit,armorFarmerGloves,armorFarmerBoots,gunShotgunT1DoubleBarrel,meleeToolShovelT1IronShovel,ammoShotgunShell,shotgunsSkillMagazine,seedSkillMagazine"/>
+				<property name="Create_item_count" value="1,1,1,1,1,1,26,10,20"/>
+			</property>
+		</item>
+
+<item name="Thief Starter Bundle">
+			<property name="DescriptionKey" value="THIBundleDesc"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CustomIcon" value="armorRogueHelmet"/>			
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Special Items"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="armorRogueHelmet,armorRogueOutfit,armorRogueGloves,armorRogueBoots,modGunSoundSuppressorSilencer,thrownTimedCharge,explosivesSkillMagazine,bladesSkillMagazine,bookGreatHeistGoldRush"/>
+				<property name="Create_item_count" value="1,1,1,1,1,10,20,10,1"/>
+			</property>
+		</item>
+
+<item name="Assassin Starter Bundle">
+			<property name="DescriptionKey" value="ASSBundleDesc"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CustomIcon" value="armorAssassinHelmet"/>			
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Special Items"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="armorAssassinHelmet,armorAssassinOutfit,armorAssassinGloves,armorAssassinBoots,gunBowT1WoodenBow,modGunBowPolymerString,ammoArrowIron,bowsSkillMagazine,bookNightStalkerStealthDamage"/>
+				<property name="Create_item_count" value="1,1,1,1,1,1,25,10,1"/>
+			</property>
+		</item>
+
+<item name="Gamer Starter Bundle">
+			<property name="DescriptionKey" value="GAMBundleDesc"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CustomIcon" value="armorNomadHelmet"/>			
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Special Items"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="armorNomadHelmet,armorNomadOutfit,armorNomadGloves,armorNomadBoots,meleeWpnSpearT1IronSpear,drugSugarButts,drinkCanMegaCrush,spearsSkillMagazine,bookSpearHunter7QuickStrike"/>
+				<property name="Create_item_count" value="1,1,1,1,1,1,1,10,1"/>
+			</property>
+		</item>
+
+<item name="Engineer Starter Bundle">
+			<property name="DescriptionKey" value="ENGBundleDesc"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CustomIcon" value="armorNerdHelmet"/>			
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Special Items"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="armorNerdHelmet,armorNerdOutfit,armorNerdGloves,armorNerdBoots,gunBotT1JunkSledge,meleeToolWireTool,workstationSkillMagazine,electricianSkillMagazine,trapsSkillMagazine"/>
+				<property name="Create_item_count" value="1,1,1,1,1,1,9,30,30"/>
+			</property>
+		</item>
+
+<item name="Construction worker Starter Bundle">
+			<property name="DescriptionKey" value="CONBundleDesc"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CustomIcon" value="meleeToolRepairT1ClawHammer"/>			
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Special Items"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="armorMinerHelmet,armorLumberjackOutfit,armorFarmerGloves,armorMinerBoots,meleeWpnSledgeT1IronSledgehammer,meleeToolRepairT3Nailgun,sledgehammersSkillMagazine,repairToolsSkillMagazine,bookSledgeSagaConcussiveStrike"/>
+				<property name="Create_item_count" value="1,1,1,1,1,1,10,20,1"/>
+			</property>
+		</item>
+
+<item name="Hobo Starter Bundle">
+			<property name="DescriptionKey" value="HOBBundleDesc"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/sackPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="CustomIcon" value="burningBarrel"/>			
+			<property name="HoldType" value="45"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Special Items"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Create_item" value="armorLumberjackHelmet,modArmorQuadStoragePocket,armorCommandoGloves,armorEnforcerBoots,gunShotgunT1DoubleBarrel,ammoShotgunShell,toolCookingPot,toolCookingGrill,foodSkillMagazine"/>
+				<property name="Create_item_count" value="1,1,1,1,1,12,1,1,20"/>
+			</property>
+		</item>
+
+
+
+
+
+
+
+
+                </append>
+</configs>
