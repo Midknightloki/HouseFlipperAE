@@ -29,15 +29,18 @@ Due to GitHub repository size limits, the LittleRedSonja UBBI asset bundle (305M
 2. Install and open ModLauncherV5
 3. Go to "Install New Mod" → "Add Custom Mod URL"
 4. Paste this URL: `https://raw.githubusercontent.com/Midknightloki/HouseFlipperAE/main/modlauncherconfiguration.xml`
-5. Click "Install" - the launcher handles everything automatically
-6. Click "Pre-Sync" so the launcher will install all the mods
-7. **Download large asset** (if LittleRedSonja items are missing in-game):
+5. click Confirm.
+6. Locate House Flipper: Apocalyse edition in the list of mods on the left.
+7. Click "Install" - the launcher handles everything automatically
+8. Click "Pre-Sync" so the launcher will install all the mods
+9. **Download large asset** (if LittleRedSonja items are missing in-game):
    - Go to your game directory (something like `7D2D\v2\House_Flipper_-_Apocalypse_Edition\House_Flipper_-_Apocalypse_Edition`)
    - **Double-click `post_install_assets.bat`** - that's it!
+     - if that does not do anything try right-click>"run as admin".
    - Alternatively, manual download from [Releases](https://github.com/Midknightloki/HouseFlipperAE/releases/tag/v2.0.0) and place at `Mods/1_LittleRedSonja_ZT_UBBI_V2/Resources/SonjaUBBI.unity3d`
-8. Start a new game world or connect to server!
-   - Address: `valhalla.l0k1.net`
-   - Password: `valhallacalling`
+10. Start a new game world or connect to server!
+    - Address: `valhalla.l0k1.net`
+    - Password: `valhallacalling`
 
 ### Manual Installation
 
