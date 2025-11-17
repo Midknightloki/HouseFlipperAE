@@ -19,7 +19,7 @@ House Flipper: Apocalypse Edition is a carefully curated modpack built from a ve
 
 ## ⚠️ Important Note: Large Asset File
 
-Due to GitHub repository size limits, the LittleRedSonja UBBI asset bundle (305MB) must be downloaded separately. A post-install script (`scripts/post_install_assets.ps1`) is included to handle this automatically. If needed, manually download from [Releases](https://github.com/Midknightloki/HouseFlipperAE/releases/tag/v2.0.0) and place at `Mods/1_LittleRedSonja_ZT_UBBI_V2/Resources/SonjaUBBI.unity3d`.
+Due to GitHub repository size limits, the LittleRedSonja UBBI asset bundle (305MB) must be downloaded separately. A post-install script (`post_install_assets.ps1`) is included in the modpack to handle this automatically. If needed, manually download from [Releases](https://github.com/Midknightloki/HouseFlipperAE/releases/tag/v2.0.0) and place at `Mods/1_LittleRedSonja_ZT_UBBI_V2/Resources/SonjaUBBI.unity3d`.
 
 ## Installation
 
@@ -31,7 +31,7 @@ Due to GitHub repository size limits, the LittleRedSonja UBBI asset bundle (305M
 4. Paste this URL: `https://raw.githubusercontent.com/Midknightloki/HouseFlipperAE/main/modlauncherconfiguration.xml`
 5. Click "Install" - the launcher handles everything automatically
 6. Click "Pre-Sync" so the launcher will install all the mods
-7. **Run post-install script** (if LittleRedSonja items missing): `.\scripts\post_install_assets.ps1`
+7. **Run post-install script** (if LittleRedSonja items missing): `.\post_install_assets.ps1`
 8. Start a new game world
 
 ### Manual Installation
