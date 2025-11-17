@@ -32,6 +32,9 @@
 - **7_(TMO) Easy Sorter v3.1** (v3.1) - Inventory sorting utilities
 - **8_OcbDensityHoe** (v0.6.0) - Terrain modification tools
 
+### Compatibility Patches (Load Order: 999)
+- **999_Compatibility_Patch** (v1.0.0) - Restores missing vanilla loot containers (birdNest, junk) removed by other mods
+
 ## Load Order Notes
 - **00000-00001**: Critical UI framework - must load first
 - **001**: Gameplay balance modifications
