@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+	<Name value="HouseFlipperAE Compatibility Patch"/>
+	<DisplayName value="Compatibility Patch"/>
+	<Version value="1.0.0"/>
+	<Description value="Restores missing vanilla loot containers (birdNest, junk, etc.) that were removed by other mods"/>
+	<Author value="HouseFlipperAE Team"/>
+	<Website value="https://github.com/Midknightloki/HouseFlipperAE"/>
+</xml>
