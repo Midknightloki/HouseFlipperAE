@@ -8,14 +8,14 @@ House Flipper: Apocalypse Edition is a carefully curated modpack built from a ve
 
 ## Features
 
-✅ **Modern UI Suite** - SMX UI 2.3.9.0 with integrated minimap and customizable settings via Gears  
-✅ **Building & Decoration** - LittleRedSonja plumbing/decor, MPLogue prefabs, PyroPaints customization  
-✅ **Quality of Life** - BeyondStorage2, Easy Sorter, OcbDensityHoe terrain tools, Grumpee's starter bundles  
-✅ **Additional Content** - New prefabs, urban decay themes, trader modifications  
-✅ **Vehicle Support** - Bobcat Vehicle for efficient material transportation  
-✅ **Verified Configuration** - Built from tested, known-working installation  
-✅ **Multiplayer Ready** - All mods support multiplayer/server play  
-✅ **One-Step Installation** - Easy setup via ModLauncherV5  
+✅ **Modern UI Suite** - SMX UI 2.3.9.0 with integrated minimap and customizable settings via Gears
+✅ **Building & Decoration** - LittleRedSonja plumbing/decor, MPLogue prefabs, PyroPaints customization
+✅ **Quality of Life** - BeyondStorage2, Easy Sorter, OcbDensityHoe terrain tools, Grumpee's starter bundles
+✅ **Additional Content** - New prefabs, urban decay themes, trader modifications
+✅ **Vehicle Support** - Bobcat Vehicle for efficient material transportation
+✅ **Verified Configuration** - Built from tested, known-working installation
+✅ **Multiplayer Ready** - All mods support multiplayer/server play
+✅ **One-Step Installation** - Easy setup via ModLauncherV5
 
 ## ⚠️ Important Note: Large Asset File
 
@@ -30,8 +30,9 @@ Due to GitHub repository size limits, the LittleRedSonja UBBI asset bundle (305M
 3. Go to "Install New Mod" → "Add Custom Mod URL"
 4. Paste this URL: `https://raw.githubusercontent.com/Midknightloki/HouseFlipperAE/main/modlauncherconfiguration.xml`
 5. Click "Install" - the launcher handles everything automatically
-6. **Run post-install script** (if LittleRedSonja items missing): `.\scripts\post_install_assets.ps1`
-7. Start a new game world
+6. Click "Pre-Sync" so the launcher will install all the mods
+7. **Run post-install script** (if LittleRedSonja items missing): `.\scripts\post_install_assets.ps1`
+8. Start a new game world
 
 ### Manual Installation
 
@@ -43,6 +44,7 @@ Due to GitHub repository size limits, the LittleRedSonja UBBI asset bundle (305M
 ## Mod List
 
 ### UI Framework (00000-00001)
+
 - **Gears** v5.0.1 - Settings framework for in-game mod configuration
 - **Quartz** v6.0.1 - UI framework providing core functionality
 - **SMXcore** v2.3.9.0 - Core library for SMX UI suite
@@ -51,9 +53,11 @@ Due to GitHub repository size limits, the LittleRedSonja UBBI asset bundle (305M
 - **SMXui** v2.3.9.0 - Improved in-game UI
 
 ### Gameplay Modifications (001)
+
 - **No trader rekt** v2.0 - Trader balancing adjustments
 
 ### Building & Content (01-1)
+
 - **MPLogue Prefabs** v2.0.1 - Additional POI prefabs for world generation
 - **MPLogue UrbanDecay** v1.2.1 - Urban decay themed buildings and content
 - **BobcatVehicle** v1.0 - Bobcat vehicle for material transportation
@@ -61,10 +65,12 @@ Due to GitHub repository size limits, the LittleRedSonja UBBI asset bundle (305M
 - **Grumpee's starter bundles** v2.0 - Helpful starting equipment
 
 ### Decoration & Storage (3-4)
+
 - **PyroPaints** v2.0.51.0 - Advanced painting and decoration system
 - **BeyondStorage2** v2.3.5 - Enhanced storage solutions
 
 ### Quality of Life (7-8)
+
 - **Easy Sorter** v3.1 - Inventory sorting utilities
 - **OcbDensityHoe** v0.6.0 - Terrain modification tools
 
