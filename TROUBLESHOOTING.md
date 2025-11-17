@@ -2,6 +2,16 @@
 
 ## Installation Issues
 
+### Large Asset Download Required
+
+**Symptoms**: LittleRedSonja decorative items missing in-game
+
+**Solution**:
+- The LittleRedSonja asset bundle (305MB) must be downloaded separately
+- Navigate to your game installation folder
+- **Double-click `post_install_assets.bat`** to download automatically
+- Alternative: Manual download from [Releases](https://github.com/Midknightloki/HouseFlipperAE/releases/tag/v2.0.0)
+
 ### ModLauncherV5 Won't Install the Modpack
 
 **Symptoms**: Launcher shows errors, modpack doesn't appear, or installation fails
@@ -88,6 +98,21 @@
    - Building pieces appear in creative menu
    - Check under various categories (blocks, items, decorations)
 
+### Cannot Loot Bird Nests or Junk Piles
+
+**Symptoms**: "LootContainer 'birdNest' unknown" or "LootContainer 'junk' unknown" in server logs, cannot interact with these containers in-game
+
+**Solution**:
+- The **999_Compatibility_Patch** mod restores these missing vanilla loot containers
+- Ensure this mod is installed and loading (should be automatic with ModLauncherV5)
+- Server must be restarted after adding the patch
+- Existing world should work, no need to regenerate
+
+**Technical Details**:
+- Some mods override `loot.xml` without including all vanilla definitions
+- The compatibility patch uses `append` to restore removed containers
+- Load order 999 ensures it loads after other mods
+
 ### Game Crashing on Startup
 
 **Symptoms**: Game crashes immediately after loading mods
@@ -95,7 +120,7 @@
 **Solutions**:
 
 1. **Load Order Issue**
-   - CP Modded Core V2 must load first
+   - UI framework mods (Gears, Quartz, SMX) must load first (00000-00001 prefix)
    - Reinstall using ModLauncherV5 for automatic ordering
 
 2. **Mod Conflicts**
@@ -103,7 +128,7 @@
    - Test with modpack only first
 
 3. **Missing Dependencies**
-   - Ensure all CP mods are installed (Core, AIO, Patch, Traders)
+   - Ensure all SMX UI mods are installed (SMXcore, SMXhud, SMXmenu, SMXui)
    - Missing dependencies can cause crashes
 
 4. **Check Game Logs**
