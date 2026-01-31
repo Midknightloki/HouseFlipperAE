@@ -1,0 +1,65 @@
+﻿using System;
+using BeyondStorage.Scripts.Data;
+using BeyondStorage.Scripts.Infrastructure;
+using BeyondStorage.Scripts.TileEntities;
+
+namespace BeyondStorage.Scripts.Storage;
+
+/// <summary>
+/// Holds and manages collections of storage sources and their associated ItemStacks.
+/// The source collections (DewCollectors, Lootables, etc.) contain the actual storage entities,
+/// while the item collections (DewCollectorItems, LootableItems, etc.) contain cached ItemStacks
+/// extracted from those sources for performance optimization.
+/// </summary>
+public class StorageDataManager
+{
+    internal readonly StorageSourceItemDataStore _dataStore;
+    internal StorageSourceItemDataStore DataStore => _dataStore;
+
+    public readonly Func<EntityDrone, EntityDrone, bool> EqualsDroneCollectorFunc = (a, b) => ReferenceEquals(a, b);
+    public readonly Func<EntityDrone, ItemStack[]> GetItemsDroneCollectorFunc = (dr) => LootableItemHandler.GetLootableItems(dr.lootContainer);
+    public readonly Action<EntityDrone> MarkModifiedDroneCollectorFunc = (dr) => LootableItemHandler.MarkLootableModified(dr.lootContainer);
+
+    public readonly Func<TileEntityCollector, TileEntityCollector, bool> EqualsDewCollectorFunc = (a, b) => ReferenceEquals(a, b);
+    public readonly Func<TileEntityCollector, ItemStack[]> GetItemsDewCollectorFunc = (dc) => dc.items;
+    public readonly Action<TileEntityCollector> MarkModifiedDewCollectorFunc = (dc) => DewCollectorStateManager.MarkDewCollectorModified(dc);
+
+    public readonly Func<TileEntityWorkstation, TileEntityWorkstation, bool> EqualsWorkstationFunc = (a, b) => ReferenceEquals(a, b);
+    public readonly Func<TileEntityWorkstation, ItemStack[]> GetItemsWorkstationFunc = (workstation) => workstation.output;
+    public Action<TileEntityWorkstation> MarkModifiedWorkstationFunc = (workstation) => WorkstationStateManager.MarkWorkstationModified(workstation);
+
+    public readonly Func<ITileEntityLootable, ITileEntityLootable, bool> EqualsLootableFunc = (a, b) => ReferenceEquals(a, b);
+    public readonly Func<ITileEntityLootable, ItemStack[]> GetItemsLootableFunc = LootableItemHandler.GetLootableItems;
+    public Action<ITileEntityLootable> MarkModifiedLootableFunc = (lootable) => LootableItemHandler.MarkLootableModified(lootable);
+
+    public readonly Func<EntityVehicle, EntityVehicle, bool> EqualsVehicleFunc = (a, b) => ReferenceEquals(a, b);
+    public readonly Func<EntityVehicle, ItemStack[]> GetItemsVehicleFunc = vehicle => LootableItemHandler.GetLootableItems(vehicle);
+    public Action<EntityVehicle> MarkModifiedVehicleFunc = vehicle => LootableItemHandler.MarkLootableModified(vehicle);
+
+    internal StorageDataManager(StorageSourceItemDataStore dataStore)
+    {
+        if (dataStore == null)
+        {
+            var error = $"{nameof(StorageDataManager)}: {nameof(dataStore)} cannot be null.";
+            ModLogger.DebugLog(error);
+            throw new ArgumentException(error, nameof(dataStore));
+        }
+
+        _dataStore = dataStore;
+    }
+
+    public void Clear()
+    {
+        DataStore.Clear();
+    }
+
+    public string GetSourceSummary()
+    {
+        return DataStore.GetDiagnosticInfo();
+    }
+
+    internal int CountCachedItems(UniqueItemTypes filter)
+    {
+        return DataStore.GetFilteredItemCount(filter);
+    }
+}

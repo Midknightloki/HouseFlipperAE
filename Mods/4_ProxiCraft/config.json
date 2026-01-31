@@ -1,0 +1,59 @@
+{
+  "_comment": "ProxiCraft Configuration - Edit these settings to customize the mod",
+
+  "modEnabled": true,
+  "isDebug": false,
+  "verboseHealthCheck": false,
+
+  "_rangeNote": "How far away (in blocks) to search for containers. 15 = same room, 30 = small building, 100 = large base, -1 = everywhere you can see",
+  "range": 100,
+
+  "_storageSourcesNote": "Which container types to pull items from",
+  "pullFromVehicles": true,
+  "pullFromDrones": true,
+  "pullFromDewCollectors": true,
+  "pullFromWorkstationOutputs": true,
+  "allowLockedContainers": true,
+
+  "_storagePriorityNote": "Order to search storage sources. Lower numbers = checked first. Items pulled from first available source.",
+  "storagePriority": {
+    "Drone": "1",
+    "DewCollector": "2",
+    "Workstation": "3",
+    "Container": "4",
+    "Vehicle": "5"
+  },
+
+  "_coreFeaturesNote": "Main features - what actions can use items from nearby containers",
+  "enableForCrafting": true,
+  "enableForQuests": true,
+  "enableForRepairAndUpgrade": true,
+  "enableForLockpicking": true,
+  "enableForItemRepair": true,
+  "enableForPainting": true,
+
+  "_reloadRefuelNote": "Reload and refuel features - may need updates after major game patches",
+  "enableForReload": true,
+  "enableForRefuel": true,
+  "enableForTrader": true,
+  "enableForGeneratorRefuel": true,
+
+  "_uiFeaturesNote": "Display features - show container items in the game UI",
+  "enableHudAmmoCounter": true,
+  "enableRecipeTrackerUpdates": true,
+  "respectLockedSlots": true,
+
+  "_multiplayerSafetyNote": "Crash prevention for multiplayer. Only disable on trusted/moderated servers!",
+  "_multiplayerImmediateLockWarning": ">>> If false, CTD can occur if ANY player joins without ProxiCraft! <<<",
+  "multiplayerImmediateLock": true,
+  "multiplayerHandshakeTimeoutSeconds": 10,
+
+  "_experimentalEnhancedSafetyNote": "Enhanced Safety Mode: Routes operations through centralized VirtualInventoryProvider for better multiplayer stability. Enabled by default.",
+  "_enhancedSafetyWarning": ">>> Recommended for multiplayer. Safe to disable if you only play single-player. <<<",
+  "enhancedSafetyCrafting": true,
+  "enhancedSafetyReload": true,
+  "enhancedSafetyRepair": true,
+  "enhancedSafetyVehicle": true,
+  "enhancedSafetyRefuel": true,
+  "enhancedSafetyDiagnosticLogging": false
+}
