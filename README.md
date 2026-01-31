@@ -1,6 +1,6 @@
 # House Flipper: Apocalypse Edition
 
-**Version 2.0** - A curated building and exploration modpack for 7 Days to Die V2.4 (1.0 Stable)
+**Version 2.5.2** - A curated building and exploration modpack for 7 Days to Die V2.5 Survival Revival (Stable)
 
 ## Overview
 
@@ -8,9 +8,10 @@ House Flipper: Apocalypse Edition is a carefully curated modpack built from a ve
 
 ## Features
 
-✅ **Modern UI Suite** - SMX UI 2.3.9.0 with integrated minimap and customizable settings via Gears
+✅ **Modern UI Suite** - SMX UI 2.3.9.0 with integrated minimap and customizable settings via Gears 6.0.0 & Quartz 7.1.1
 ✅ **Building & Decoration** - LittleRedSonja plumbing/decor, MPLogue prefabs, PyroPaints customization
-✅ **Quality of Life** - BeyondStorage2, Easy Sorter, OcbDensityHoe terrain tools, Grumpee's starter bundles
+✅ **Quality of Life** - Easy Sorter, OcbDensityHoe terrain tools, Grumpee's starter bundles
+✅ **Smart Crafting** - ProxiCraft v1.2.11 - craft/reload/refuel using nearby container items
 ✅ **Additional Content** - New prefabs, urban decay themes, trader modifications
 ✅ **Vehicle Support** - Bobcat Vehicle for efficient material transportation
 ✅ **Verified Configuration** - Built from tested, known-working installation
@@ -53,12 +54,16 @@ Due to GitHub repository size limits, the LittleRedSonja UBBI asset bundle (305M
 
 ### UI Framework (00000-00001)
 
-- **Gears** v5.0.1 - Settings framework for in-game mod configuration
-- **Quartz** v6.0.1 - UI framework providing core functionality
+- **Gears** v6.0.0 - Settings framework for in-game mod configuration (2.5 compatible)
+- **Quartz** v7.1.1 - UI framework providing core functionality (2.5 compatible, weapon mod fix)
 - **SMXcore** v2.3.9.0 - Core library for SMX UI suite
 - **SMXhud** v2.3.9.0 - HUD replacement with integrated minimap
 - **SMXmenu** v2.3.9.0 - Enhanced menu system
 - **SMXui** v2.3.9.0 - Improved in-game UI
+
+### Crafting & Resources (4)
+
+- **ProxiCraft** v1.2.11 - Use items from nearby containers for crafting, reloading, refueling, repairs, and lockpicking
 
 ### Gameplay Modifications (001)
 
@@ -72,10 +77,9 @@ Due to GitHub repository size limits, the LittleRedSonja UBBI asset bundle (305M
 - **LittleRedSonja UBBI V2** v1.0.5 - Plumbing, decorative, and building pieces
 - **Grumpee's starter bundles** v2.0 - Helpful starting equipment
 
-### Decoration & Storage (3-4)
+### Decoration & QoL (3)
 
 - **PyroPaints** v2.0.51.0 - Advanced painting and decoration system
-- **BeyondStorage2** v2.3.5 - Enhanced storage solutions
 
 ### Quality of Life (7-8)
 
