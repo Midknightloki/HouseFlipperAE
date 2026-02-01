@@ -3,10 +3,10 @@
   <ServerGroup Name="House Flipper - Apocalypse Edition">
     <Server Name="House Flipper - Apocalypse Edition" Logo="https://raw.githubusercontent.com/Midknightloki/HouseFlipperAE/main/assets/logo.png">
       <Description>House Flipper: Apocalypse Edition - A curated building and exploration modpack for 7 Days to Die V2.5 Survival Revival (Stable). Features Include: - SMX UI Suite: Modern interface with integrated MINIMAP for easy navigation - Building Mods: LittleRedSonja plumbing/decor, MPLogue prefabs, and extensive decoration options - Quality of Life: Gears settings framework, Easy Sorter, OcbDensityHoe terrain tools - Smart Crafting: ProxiCraft v1.2.11 - Vehicle Support: Bobcat Vehicle for efficient material transportation - Starter Support: Grumpee's starter bundles for new players - Verified Configuration: Tested and confirmed working setup from known stable installation.</Description>
-      <Version>2.5.3</Version>
+      <Version>2.5.4</Version>
       <RSS/>
       <Excludes/>
-      <ReleaseNotes>Version 2.5.3 - FIX: Restored traders by removing "No trader rekt" from the modpack. Also keeps Quartz 7.1.1 for the weapon modification bug fix. If you still see conflicts, delete duplicate old mod folders (Easy Sorter v3 / v3.1, old Grumpee bundles) before reinstalling.</ReleaseNotes>
+      <ReleaseNotes>Version 2.5.4 - Restored "No trader rekt" (replaces Rekt with Jen). Note: existing worlds may need region reset/new world to spawn Jen. Quartz remains 7.1.1 for the weapon modification bug fix. If you still see conflicts, delete duplicate old mod folders (Easy Sorter v3 / v3.1, old Grumpee bundles) before reinstalling.</ReleaseNotes>
       <Discord>https://github.com/Midknightloki/HouseFlipperAE/discussions</Discord>
       <Donate/>
       <DownloadMode>GitHub</DownloadMode>

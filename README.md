@@ -1,6 +1,6 @@
 # House Flipper: Apocalypse Edition
 
-**Version 2.5.3** - A curated building and exploration modpack for 7 Days to Die V2.5 Survival Revival (Stable)
+**Version 2.5.4** - A curated building and exploration modpack for 7 Days to Die V2.5 Survival Revival (Stable)
 
 ## Overview
 
@@ -64,6 +64,10 @@ Due to GitHub repository size limits, the LittleRedSonja UBBI asset bundle (305M
 ### Crafting & Resources (4)
 
 - **ProxiCraft** v1.2.11 - Use items from nearby containers for crafting, reloading, refueling, repairs, and lockpicking
+
+### Gameplay Modifications (001)
+
+- **No trader rekt** v2.0 - Replaces Trader Rekt with Trader Jen (may require a new world or region reset to spawn)
 
 ### Building & Content (01-1)
 
